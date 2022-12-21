@@ -1,0 +1,49 @@
+*{
+    top:0;
+    left: 0;
+}
+body{
+    /* height: 100vh;
+    width: 100vw; */
+}
+.weather{
+    height: 20rem;
+    width: 20rem;
+    margin: 15rem auto;
+    /* background-color: aqua; */
+}
+form{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 70%;
+}
+form p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+form input{
+    width: 80%;
+    border: 2px solid gray;
+    height: 3rem;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+#btn{
+    /* background-color: ; */
+    margin: auto;
+    
+}
+#btn button{
+    border:2px solid gray;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+#btn :hover{
+    cursor: pointer;
+}
